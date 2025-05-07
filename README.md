@@ -1,18 +1,18 @@
-# SHL Assessment Recommender 🚀
+# SHL Assessment Recommender System
 
-A tool for recommending SHL assessments based on job descriptions using semantic search and natural language processing.
+It is a tool for recommending SHL assessments based on job descriptions using semantic search and natural language processing.
 
-## Overview 📋
+## Overview
 
 The SHL Assessment Recommender helps HR professionals and recruiters find the most appropriate SHL assessments for their hiring needs. By analyzing job descriptions or specific queries, the system recommends relevant assessments from SHL's catalog, providing explanations for why each assessment is suitable.
 
-## 🧠 System Architecture
+## System Architecture
 
 The following diagram illustrates the architecture of the SHL Assessment Recommender system:
 
 ![System Architecture](image/diagram.png)
 
-## Features 🌟
+## Features
 
 - **Semantic Search**: Uses AI embeddings to understand the meaning behind job descriptions
 - **Intelligent Filtering**: Automatically extracts requirements like time constraints from natural language queries
@@ -20,7 +20,7 @@ The following diagram illustrates the architecture of the SHL Assessment Recomme
 - **Dual Interface**: Access via web UI or API endpoint
 - **Data Visualization**: Visual breakdown of recommended assessment types
 
-## Demo 🎥
+## Demo 
 
 A live demo is available at: [http://localhost:8503](https://shl-assessment-recommendation-system.streamlit.app/)
 
@@ -82,11 +82,3 @@ GET /api/recommend?query=your+query+here
 - `openrouter_api.py`: OpenRouter API integration
 - `shl_assessments.csv`: Cached assessment data
 - `approach_document.md`: Technical approach documentation
-
----
-
-## 👤 Author
-
-Email: [namanjain34710@gmail.com](mailto\:namanjain34710@gmail.com)
-
-LinkedIn: [Naman Jain](https://www.linkedin.com/in/naman-jain-226135201/)
